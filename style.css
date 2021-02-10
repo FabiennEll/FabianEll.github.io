@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   margin-top: 50px;
@@ -70,17 +74,36 @@ header a {
 }
 
 #me {
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background_me.jpg')
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background_me.jpg');
 }
 
 #blog {
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background_block.jpg')
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background_block.jpg');
+}
+
+#blog a:link, a:visited {
+  background-color: white;
+  color: black;
+  border-radius: 90px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+#blog a:hover, a:active {
+  background-color: aquamarine;
 }
 
 #music {
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('backgroundimage_music.jpg')
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('backgroundimage_music.jpg');
 }
 
 #socials {
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background_socials.jpg')
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('background_socials.jpg');
 }
