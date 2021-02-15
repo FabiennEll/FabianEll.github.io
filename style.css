@@ -20,8 +20,13 @@ header {
 }
 
 header a:link, a:visited {
-  background-color: white;
+  background-color: transparent;
   transition: 0.5s;
+  color: black;
+  padding: 5px;
+  /*text-align: bottom;
+  text-decoration: none;*/
+  display: inline-block;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
   -moz-transition: 0.5s;
