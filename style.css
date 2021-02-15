@@ -14,18 +14,13 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 30px;
-  line-height: 30px;
+  height: 50px;
+  line-height: 50px;
   background-color: #eee;
 }
 
 header a:link, a:visited {
   background-color: white;
-  color: black;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   transition: 0.5s;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
