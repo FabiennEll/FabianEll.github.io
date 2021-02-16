@@ -19,6 +19,24 @@ header {
   background-color: #eee;
 }
 
+header a:link, a:visited {
+  background-color: transparent;
+  transition: 0.5s;
+  color: black;
+  padding: 5px;
+  /*text-align: bottom;
+  text-decoration: none;*/
+  display: inline-block;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
+header a:hover, a:active {
+  background-color: aquamarine;
+}
+
 header * {
   display: inline;
   height: 50px;
